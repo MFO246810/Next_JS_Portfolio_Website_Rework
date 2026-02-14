@@ -6,7 +6,7 @@ on:
 
 jobs:
   unit-tests:
-    runs-on: self hosted
+    runs-on: self-hosted
     steps:
       - name: Checkout repository code
         uses: actions/checkout@v4
